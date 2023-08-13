@@ -1,0 +1,107 @@
+
+h1{
+  text-align: center;
+  background-image:url(https://64.media.tumblr.com/d0c8a43ac7a8b6afeadd845832bf0d13/tumblr_omgtqlBiwj1ve5bumo4_540.gif);
+}
+#container{
+  text-align:center;
+background: linear-gradient(to bottom, #fcf6bd, #a1c4fd, #c2e9fb);
+
+  padding:50px;
+  border:dashed ;
+  border-radius:35px;
+   BORDER-COLOR:white;
+}
+#container:hover{
+  text-align:center;
+  background: radial-gradient(circle, #f3a683, #d3d3d3);
+
+  padding:50px;
+  border:dashed ;
+  border-radius:35px;
+  BORDER-COLOR:black;
+  
+}
+input{
+  background-color:orange;
+}
+
+input:hover {
+  background-color: yellow;
+}
+.input-div{
+  display:inline-block;
+}
+.inp{
+  padding: 5px 10px;
+  margin: 10 px;
+  font-size:30px;
+  font-weight:bold;
+  }
+label{
+  font-size:22px;
+  color:black;
+}
+label:hover{
+  background-color:blue;
+}
+BODY{
+
+  color:blue;
+  Padding : 50px 100px;
+  background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-m5L96dKafkZoxQnZ1uCxuvnF4ZV5iTdkJw&usqp=CAU");
+  background-repeat:no-repeat;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#container2{
+  MARGIN-LEFT:50PX;
+/*     display:inline-block; */
+  text-align:center;
+  background-color:RED;
+  COLOR:red;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEtkRlFScfkJPZje-Rhjp64DOy0PoN10Y5dw&usqp=CAU)}
+/*   border:dashed ; */
+/*   border-radius:35px; */
+H2{
+  BACKGROUND-COLOR:YELLOW;
+}
+IMG{
+  HEIGHT:250PX;
+  margin-right:10px;
+  margin-left:10px;
+}
+IMG:hover{
+  HEIGHT:300PX;
+  
+}
+.animation-container {
+  text-align: center;
+}
+
+.animated-text {
+  font-size: 1
+    8px;
+  animation: rainbow 5s infinite linear, rotateText 5s infinite linear;
+}
+
+@keyframes rainbow {
+  0% { color: red; }
+  14% { color: orange; }
+  28% { color: yellow; }
+  42% { color: green; }
+  57% { color: blue; }
+  71% { color: indigo; }
+  85% { color: violet; }
+  100% { color: red; }
+}
+
+/* @keyframes rotateText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+} */
